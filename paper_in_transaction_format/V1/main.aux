@@ -1,0 +1,111 @@
+\relax 
+\citation{carpentier1962contribution,wang2023ac}
+\citation{nea2024consumption}
+\citation{caisoRealtime,pjmDispatch}
+\citation{neaSouthernMarket}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\citation{ramamonjison2023nl4opt,huang2024mamo,yang2025optibench,huang2025orlm}
+\citation{shen2026proopf}
+\citation{ramamonjison2023nl4opt}
+\citation{huang2024mamo,yang2025optibench,ahmaditeshnizi2023optimus,huang2025orlm}
+\citation{jia2025enhancing}
+\citation{zhang2026automatic}
+\citation{shen2026proopf}
+\citation{zhouFeeder}
+\citation{moura2021lean,ying2024lean}
+\citation{chen2025solver}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related Work}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Natural-Language Optimization Modeling}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}LLMs for Power-System Analysis and Modeling}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}External Verification and Verifiable Rewards}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Draft overview of the proposed workflow: audited construction of parameter-modification and structural-extension data, cumulative curriculum SFT, and physics-aware reinforcement learning with gated rewards and solver feedback.}}{3}{}\protected@file@percent }
+\newlabel{fig:framework}{{1}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Problem Formulation and Framework}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Canonical OPF and Adaptation Operators}{3}{}\protected@file@percent }
+\newlabel{eq:base-opf}{{1}{3}}
+\newlabel{eq:base-obj}{{1a}{3}}
+\newlabel{eq:base-eq}{{1b}{3}}
+\newlabel{eq:base-ineq}{{1c}{3}}
+\newlabel{eq:adapted-opf}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Difference-Based LLM Interface}{3}{}\protected@file@percent }
+\newlabel{eq:llm-interface}{{3}{3}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Four-Level OPF Adaptation Hierarchy}}{3}{}\protected@file@percent }
+\newlabel{tab:levels}{{I}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Four-Level Task Hierarchy}{3}{}\protected@file@percent }
+\citation{bynum2021egret,pyomoBook}
+\citation{zimmerman2011matpower}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}Verifiable Correctness}{4}{}\protected@file@percent }
+\newlabel{eq:strict}{{6}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Executable Dataset Construction}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Python/Egret Backbone and Scope}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Synthesis and Benchmark Rebuilding}{4}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Structural-Extension Coverage in Train and Development Data}}{4}{}\protected@file@percent }
+\newlabel{tab:structures}{{II}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Deterministic Audit Pipeline}{4}{}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Strict Evaluation of One Generated OPF Adaptation}}{5}{}\protected@file@percent }
+\newlabel{alg:audit}{{1}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Source-Separated Split and Statistics}{5}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Frozen Candidate Data Split}}{5}{}\protected@file@percent }
+\newlabel{tab:data-split}{{III}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Physics-Aware Post-Training}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Cumulative Curriculum SFT}{5}{}\protected@file@percent }
+\newlabel{eq:sft}{{7}{5}}
+\citation{shao2024deepseekmath}
+\citation{qwen25}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Three-Stage Physics-Aware Reward}{6}{}\protected@file@percent }
+\newlabel{eq:reward}{{8}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Shared Verification Infrastructure}{6}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces RL Configuration to Be Finalized}}{6}{}\protected@file@percent }
+\newlabel{tab:rl-config}{{IV}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Group-Relative Policy Optimization}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Experimental Protocol}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Research Questions}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Models, Training, and Decoding}{6}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Completed Preliminary SFT Configuration on DP-v10}}{7}{}\protected@file@percent }
+\newlabel{tab:prelim-train}{{V}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Metrics}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Results and Analysis}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-A}}Preliminary Baseline and SFT Results}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-B}}Curriculum Retention and Residual Errors}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-C}}Preliminary RL Evidence}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-D}}Required Ablations and Final Result Table}{7}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Preliminary Objective-Matching E2E Accuracy $E2E_{\rm  obj}$ (\%) on ProOPF-BP-v5; These Values Must Be Rerun with the Finalized Strict Evaluator on BP-v6}}{8}{}\protected@file@percent }
+\newlabel{tab:prelim-results}{{VI}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces Preliminary Aggregate Response Funnel (Counts out of 123)}}{8}{}\protected@file@percent }
+\newlabel{tab:prelim-funnel}{{VII}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces Final Strict Accuracy on ProOPF-BP-v6{} (Experiment Placeholder)}}{8}{}\protected@file@percent }
+\newlabel{tab:final-placeholder}{{VIII}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-E}}Planned Engineering Case Studies}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Discussion}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-A}}Why Adaptation Rather Than Full Generation?}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-B}}Operational Interpretation}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-C}}Safety and Deployment Boundaries}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-D}}Limitations and Threats to Validity}{8}{}\protected@file@percent }
+\bibstyle{IEEEtran}
+\bibdata{references}
+\bibcite{carpentier1962contribution}{1}
+\bibcite{wang2023ac}{2}
+\bibcite{nea2024consumption}{3}
+\bibcite{caisoRealtime}{4}
+\bibcite{pjmDispatch}{5}
+\bibcite{neaSouthernMarket}{6}
+\bibcite{ramamonjison2023nl4opt}{7}
+\bibcite{huang2024mamo}{8}
+\bibcite{yang2025optibench}{9}
+\bibcite{huang2025orlm}{10}
+\bibcite{shen2026proopf}{11}
+\bibcite{ahmaditeshnizi2023optimus}{12}
+\bibcite{jia2025enhancing}{13}
+\bibcite{zhang2026automatic}{14}
+\bibcite{zhouFeeder}{15}
+\bibcite{moura2021lean}{16}
+\bibcite{ying2024lean}{17}
+\bibcite{chen2025solver}{18}
+\bibcite{bynum2021egret}{19}
+\bibcite{pyomoBook}{20}
+\bibcite{zimmerman2011matpower}{21}
+\bibcite{shao2024deepseekmath}{22}
+\bibcite{qwen25}{23}
+\@writefile{toc}{\contentsline {section}{\numberline {IX}Conclusion}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{9}{}\protected@file@percent }
+\gdef \@abspage@last{9}
